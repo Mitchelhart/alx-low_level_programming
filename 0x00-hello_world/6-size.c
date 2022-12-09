@@ -2,20 +2,28 @@
 
 /**
  * main - Entry point
+ *
+ * Description: data types
  * Return: Always (0) success
  *
  */
 int main(void)
 {
-	printf("Size of a char: %zu byte(s)\n", sizeof(char));
+	char q;
+	int w;
+	long int e;
+	long long int r;
+	float f;
 
-	printf("Size of a char: %zu byte(s)\n", sizeof(int));
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(q));
 
-	printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
+	printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(w));
 
-	printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(e));
 
-	prints("Size of a float: %zu byte(s)\n", sizeof(float));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(r));
+
+	prints("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 
 	return (0);
 }
