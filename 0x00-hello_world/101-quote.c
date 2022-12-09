@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 #include <unistd.h>
 /**
  * main - print a line of code too a new line
