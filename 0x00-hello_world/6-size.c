@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Print sizes of data type in c
  *
  * Description: data types
- * Return: Always (0) success
+ * Return: 0
  *
  */
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
 
 	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(r));
 
-	prints("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	prints("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(if));
 
 	return (0);
 }
