@@ -23,7 +23,7 @@ int main(void)
 
 	{
 
-		printf("%d", a);
+		putchar(a + '0');
 
 	}
 
